@@ -33,6 +33,8 @@ export const onRenderBody = ({ setPostBodyComponents }, pluginOptions) => {
                     })(document,"script");
                 `.trim(),
             }}
+            async
+            defer
         />,
     ]);
 };
